@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">Tour_Guide</string>
+    <string name="title_page">TUCSON</string>
+
+
+    <!--restaurants-->
+    <string name="category_restaurants">Restaurants</string>
+    <string name="lacocina">La Cocina</string>
+    <string name="lacocina_address">201 N Court Ave, Tucson, AZ 85701</string>
+    <string name="congress">Hotel Congress</string>
+    <string name="congress_address">311 Congress Street, Tucson, AZ 85701</string>
+    <string name="reilly">Reilly</string>
+    <string name="reilly_address">101 E Pennington St, Tucson, AZ 85701</string>
+    <string name="obon">Obon</string>
+    <string name="obon_address">350 E Congress St, Tucson, AZ 85701</string>
+
+    <!--bars-->
+    <string name="category_bars">Bars</string>
+    <string name="rBar">R Bar</string>
+    <string name="rBar_address">350 E Congress St #110, Tucson, AZ 85701</string>
+    <string name="Tap_and_Bottle">Tap and Bottle</string>
+    <string name="Tap_and_Bottle_address">403 N 6th Ave #135, Tucson, AZ 85705</string>
+    <string name="Ches_Lounge">Ches Lounge</string>
+    <string name="Ches_address">350 N 4th Ave, Tucson, AZ 85705</string>
+    <string name="Casa">Casa Video</string>
+    <string name="Casa_address">2905 E Speedway Blvd, Tucson, AZ 85716</string>
+
+    <!--shopping-->
+    <string name="category_shopping">Shopping</string>
+    <string name="mercado">El Mercado San Agustin</string>
+    <string name="mercado_address">100 South Avenida del Convento, Tucson, AZ 85745</string>
+    <string name="Pop_Cycle">Pop Cycle</string>
+    <string name="Pop_Cycle_address">422 N 4th Ave, Tucson, AZ 85705</string>
+    <string name="La_encantada">La Encantada</string>
+    <string name="La_encantada_address">42905 E Skyline Dr, Tucson, AZ 85718</string>
+    <string name="outlets">Tucson Premium Outlets</string>
+    <string name="outlets_address">6401 Marana Center Blvd, Tucson, AZ 85742</string>
+
+    <!--attractions-->
+    <string name="category_attractions">Attractions</string>
+    <string name="desert_museum">Arizona Sonora Desert Museum</string>
+    <string name="desert_museum_address">2021 N Kinney Rd, Tucson, AZ 85743</string>
+    <string name="kitt_peak">Kitt Peak Observatory</string>
+    <string name="kitt_peak_address">https://www.noao.edu/kpno/</string>
+    <string name="biosphere">Biosphere 2</string>
+    <string name="biosphere_address">32540 S Biosphere Rd, Oracle, AZ 85739</string>
+    <string name="mount_lemmon">Mount Lemmon</string>
+    <string name="mount_lemmon_address">Santa Catalina Mountain Range</string>
+
+
 </resources>

@@ -18,10 +18,10 @@ public class shopping extends AppCompatActivity {
 
         //List of shopping
         final ArrayList<items> Item = new ArrayList<items>();
-        Item.add(new items("Pop Cycle","422 N 4th Ave, Tucson, AZ 85705",R.drawable.popcycle));
-        Item.add(new items("La Encantada", "42905 E Skyline Dr, Tucson, AZ 85718",R.drawable.laencantada));
-        Item.add(new items("Mercado San Agustin", "100 South Avenida del Convento, Tucson, AZ 85745",R.drawable.mercado));
-        Item.add(new items("Tucson Premium Outlets", "6401 Marana Center Blvd, Tucson, AZ 85742",R.drawable.outlet));
+        Item.add(new items(getString(R.string.Pop_Cycle),getString(R.string.Pop_Cycle_address),R.drawable.popcycle));
+        Item.add(new items(getString(R.string.La_encantada),getString(R.string.La_encantada_address),R.drawable.laencantada));
+        Item.add(new items(getString(R.string.mercado),getString(R.string.mercado_address),R.drawable.mercado));
+        Item.add(new items(getString(R.string.outlets),getString(R.string.outlets_address),R.drawable.outlet));
 
 
         items_adapter adapter = new items_adapter(this, Item);

@@ -17,10 +17,10 @@ public class bars extends AppCompatActivity {
 
     //List of bars
     final ArrayList<items> Item = new ArrayList<items>();
-    Item.add(new items("R Bar","350 E Congress St #110, Tucson, AZ 85701",R.drawable.rbar));
-    Item.add(new items("Tap and Bottle", "403 N 6th Ave #135, Tucson, AZ 85705",R.drawable.tapandbottle));
-    Item.add(new items("Che's Lounge", "350 N 4th Ave, Tucson, AZ 85705",R.drawable.cheslounge));
-    Item.add(new items("Casa Video", "2905 E Speedway Blvd, Tucson, AZ 85716",R.drawable.casa));
+    Item.add(new items(getString(R.string.rBar),getString(R.string.rBar_address),R.drawable.rbar));
+    Item.add(new items(getString(R.string.Tap_and_Bottle),getString(R.string.Tap_and_Bottle_address),R.drawable.tapandbottle));
+    Item.add(new items(getString(R.string.Ches_Lounge),getString(R.string.Ches_address),R.drawable.cheslounge));
+    Item.add(new items(getString(R.string.Casa),getString(R.string.Casa_address),R.drawable.casa));
 
 
     items_adapter adapter = new items_adapter(this, Item);

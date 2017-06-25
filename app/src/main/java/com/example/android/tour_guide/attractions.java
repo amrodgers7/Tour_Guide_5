@@ -19,10 +19,10 @@ public class attractions extends AppCompatActivity {
         //List of Restaurants
 
         final ArrayList<items> Item = new ArrayList<items>();
-        Item.add(new items("Arizona Sonora Desert Museum", "2021 N Kinney Rd, Tucson, AZ 85743",R.drawable.desertmuseum));
-        Item.add(new items("Kitt Peak Observatory", "https://www.noao.edu/kpno/",R.drawable.kittpeak));
-        Item.add(new items("Biosphere 2", "32540 S Biosphere Rd, Oracle, AZ 85739",R.drawable.biosphere));
-        Item.add(new items("Mount Lemmon", "Santa Catalina Mountain Range",R.drawable.mtlemmon));
+        Item.add(new items(getString(R.string.desert_museum),getString(R.string.desert_museum_address),R.drawable.desertmuseum));
+        Item.add(new items(getString(R.string.kitt_peak),getString(R.string.kitt_peak_address),R.drawable.kittpeak));
+        Item.add(new items(getString(R.string.biosphere),getString(R.string.biosphere_address),R.drawable.biosphere));
+        Item.add(new items(getString(R.string.mount_lemmon),getString(R.string.mount_lemmon_address),R.drawable.mtlemmon));
 
 
         items_adapter adapter = new items_adapter(this, Item);

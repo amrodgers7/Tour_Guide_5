@@ -20,10 +20,10 @@ public class restaurants extends AppCompatActivity {
         //List of Restaurants
 
         final ArrayList<items> Item = new ArrayList<items>();
-        Item.add(new items("La Cocina","201 N Court Ave, Tucson, AZ 85701",R.drawable.lacocina));
-        Item.add(new items("Club Congress", "311 Congress Street, Tucson, AZ 85701",R.drawable.congress));
-        Item.add(new items("Reilly", "101 E Pennington St, Tucson, AZ 85701",R.drawable.reilly));
-        Item.add(new items("Obon", " 350 E Congress St, Tucson, AZ 85701",R.drawable.obon));
+        Item.add(new items(getString(R.string.lacocina),getString(R.string.lacocina_address),R.drawable.lacocina));
+        Item.add(new items(getString(R.string.congress),getString(R.string.congress_address),R.drawable.congress));
+        Item.add(new items(getString(R.string.reilly),getString(R.string.reilly_address),R.drawable.reilly));
+        Item.add(new items(getString(R.string.obon),getString(R.string.obon_address),R.drawable.obon));
 
 
         items_adapter adapter = new items_adapter(this, Item);
